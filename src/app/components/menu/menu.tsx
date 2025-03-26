@@ -1,8 +1,5 @@
 import style from "./menu.module.css"
 import Link from "next/link";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBars} from "@fortawesome/free-solid-svg-icons";
-
 
 const Menu = () =>{
     return (

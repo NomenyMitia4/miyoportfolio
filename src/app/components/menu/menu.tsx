@@ -14,8 +14,8 @@ const Menu = () =>{
                 <div className={style.menu_items}>
                     <div className={style.items}>
                         <Link href={"/"}>Home</Link>
-                        <Link href={"/"}>About</Link>
-                        <Link href={"/"}>Achievement</Link>
+                        <Link href={"/"}>Education</Link>
+                        <Link href={"/achievement"}>Achievement</Link>
                     </div>
                 </div>
             </div>

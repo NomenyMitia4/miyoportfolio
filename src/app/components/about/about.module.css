@@ -1,0 +1,103 @@
+.about
+{
+    padding: 30px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tiret
+{
+    font-size: 1em;
+    color: #fff;
+}
+
+.about p
+{
+    font-size: 1.2;
+}
+
+.caption
+{
+    font-size: 1.5em;
+    text-align: center;
+    color: #AA60C8;
+}
+
+.about .title
+{
+    border-left: 3px ridge #D69ADE;
+    padding: 0px 10px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #A55B4B;
+}
+
+.about .content
+{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    line-height: 1.8em;
+    background-color: rgba(36, 36, 36, 0.238);
+}
+
+.about_me, .skills
+{
+    padding: 30px 10px;
+
+}
+
+.skills .content
+{
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(36, 36, 36, 0.238);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 25px;
+}
+
+.content .skill
+{
+    border: 1px ridge rgba(77, 73, 73, 0.693);
+    padding: 5px 12px;
+    border-radius: 25px;
+}
+
+.content .skill:hover
+{
+    cursor: pointer;
+    transition: .2s ease;
+    border: 1px ridge gray;
+}
+
+@media (max-width: 768px)
+{
+
+    .caption
+    {
+        font-size: 1.2em;
+        text-align: center;
+        color: #AA60C8;
+        margin-bottom: 30px;
+    }
+
+    .about
+    {
+        padding: 30px 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about .title
+    {
+        border-left: 3px ridge #D69ADE;
+        padding: 0px 10px;
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #A55B4B;
+    }
+}

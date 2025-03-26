@@ -1,0 +1,50 @@
+.experience
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px 10px;
+    margin: 50px 100px;
+    background-color: rgba(13, 60, 114, 0.29);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.date
+{
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1em;
+    background-color: rgba(30, 28, 28, 0.675);
+}
+
+.content
+{
+    max-width: 80%;
+}
+
+.content .title
+{
+    font-size: 1.6em;
+    font-weight: 600;
+    padding: 10px 2px;
+    color: #D69ADE;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content .details
+{
+    font-size: 1em;
+    line-height: 1.2em;
+    padding: 10px 2px;
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.place
+{
+    padding: 8px 2x;
+}

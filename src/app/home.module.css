@@ -1,24 +1,35 @@
+.home
+{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    background: linear-gradient(rgba(6, 26, 44, 0.866),rgba(3, 13, 23, 0.899));
+}
+
 .hero
 {
-    margin-top: 410px;
+    margin-top: 0px;
+    height: 100%;
 }
 
 .hero img
 {
     border-radius: 50%;
-    width: 459px;
-    height: 543px;
+    width: 359px;
     object-fit: cover;
 }
 
 .container
 {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    height: 100vh;
+    gap: 100px;
+    min-height: 100vh;
+    height: 100%;
+    margin-top: 10px;
+    overflow-y: hidden;
+    padding-bottom: 50px;
 }
 
 .container .info
@@ -28,7 +39,7 @@
 
 .info h2
 {
-    font-size: 3.6em;
+    font-size: 3.2em;
     font-weight: 300;
     color: #AA60C8;
 }
@@ -36,13 +47,13 @@
 .info h1
 {
     color: #D69ADE;
-    font-size: 5em;
+    font-size: 4.5em;
 }
 
 .info .title
 {
     margin-top: 0px;
-    font-size: 1.8em;
+    font-size: 1.4em;
     font-weight: 300;
 }
 
@@ -89,6 +100,14 @@
     font-weight: 600;
 }
 
+.about
+{
+    color: #ffffffcc;
+    min-height: 100vh;
+    height: 100%;
+    background: linear-gradient(rgba(32, 60, 85, 0.538),rgba(15, 30, 46, 0.43));
+}
+
 @media (max-width: 1000px)
 {
     .container
@@ -99,6 +118,7 @@
         text-align: center;
         overflow-y: hidden;
     }
+
     .info .title
     {
         margin-top: 15px;
@@ -108,9 +128,11 @@
     .social_media
     {
         justify-content: center;
+        margin-right: 0px;
     }
     .info .links p
     {
+        margin-right: 0;
         font-size: 1.2em;
         text-align: center;
     }
@@ -122,6 +144,11 @@
 
 @media (max-width: 700px)
 {
+    .container
+    {
+        gap: 62px;
+    }
+
     .hero
     {
         margin-top: 0px;
@@ -129,34 +156,36 @@
 
     .hero img
     {
-        width: 350px;
-        height: 459px;
-        border-radius: 100px;
+        width: 300px;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
     }
 
     .info h2
     {
         text-align: center;
-        font-size: 2.8em;
+        font-size: 2.0em;
         font-weight: 300;
     }
 
     .info h1
     {
-        font-size: 4.5em;
+        font-size: 3.6em;
         text-align: center;
     }
 
     .info .title
     {
         margin-top: 15px;
-        font-size: 1.6em;
+        font-size: 1.4em;
         font-weight: 300;
     }
 
     .info p
     {
         text-align: center;
+        line-height: 1.8em;
     }
 
     .links
@@ -166,6 +195,7 @@
 
     .info .links p
     {
+        padding: 12px;
         font-size: 1.2em;
         text-align: center;
     }
@@ -177,9 +207,9 @@
 
     .btn button
     {
-        width: 280px;
-        height: 90px;
-        font-size: 1.8em;
+        width: 240px;
+        height: 70px;
+        font-size: 1.3em;
     }
     .social_media
     {

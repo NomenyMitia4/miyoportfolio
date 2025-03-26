@@ -1,0 +1,36 @@
+
+.container
+{
+    position: absolute;
+    margin: 0;
+    background: linear-gradient(rgba(6, 26, 44, 0.866),rgba(3, 13, 23, 0.899));
+    min-height: 100vh;
+    height: max-content;
+    color: #ffffffd6;
+}
+
+.achievement
+{
+    margin-top: 50px;
+}
+
+.title
+{
+    padding: 30px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.title h1
+{
+    font-size: 2.5em;
+    text-align: center;
+    color: #AA60C8;
+}
+
+.title .tiret
+{
+    font-size: 1em;
+    color: #fff;
+}

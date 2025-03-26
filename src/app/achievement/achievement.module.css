@@ -3,6 +3,7 @@
 {
     position: absolute;
     margin: 0;
+    width: 100%;
     background: linear-gradient(rgba(6, 26, 44, 0.866),rgba(3, 13, 23, 0.899));
     min-height: 100vh;
     height: max-content;
@@ -33,4 +34,19 @@
 {
     font-size: 1em;
     color: #fff;
+}
+
+@media (max-width: 768px)
+{
+    .title
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .title h1
+    {
+        font-size: 2em;
+    }
+
 }

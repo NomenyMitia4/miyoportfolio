@@ -41,10 +41,39 @@
     line-height: 1.2em;
     padding: 10px 2px;
     font-weight: 100;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .place
 {
     padding: 8px 2x;
+}
+
+@media (max-width: 768px)
+{
+    .experience
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 10px;
+        margin: 50px 40px;
+        background-color: rgba(13, 60, 114, 0.29);
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+
+    .content .title
+    {
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .content .details
+    {
+        font-size: 1em;
+        text-align: justify;
+        line-height: 1.5em;
+    }
 }

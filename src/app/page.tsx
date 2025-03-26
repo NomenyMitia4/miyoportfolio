@@ -17,15 +17,15 @@ export default function Home()
             <img src={"/image/bg_remove_miyo.png"} alt="My Avatar" />
           </div>
           <div className={style.info}>
-            <h2>Hi, I am</h2>
+            <h2>Bonjour, Je suis</h2>
             <h1>Sarobidy Ny Aina</h1>
-            <p className={style.title}>Accountancy</p>
+            <p className={style.title}>Comptable</p>
             <div className={style.links}>
               <div className={style.btn}>
                 <button>Download CV</button>
               </div>
-              <p>Actually Master 1 in Finance and Accountancy at ESSCA, passionned in Management domain</p>
-              <p className={style.join}>Join me here</p>
+              <p>Actuellement, Master 1 en Finance et Comptabilité à l'ESSCA, passionnée dans la domaine de gestion</p>
+              <p className={style.join}>Contactez moi ici</p>
               <div className={style.social_media}>
                 <SocialMedia/>
               </div>

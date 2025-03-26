@@ -10,9 +10,9 @@ const Menu = () =>{
                 </div>
                 <div className={style.menu_items}>
                     <div className={style.items}>
-                        <Link href={"/"}>Home</Link>
-                        <Link href={"/"}>Education</Link>
-                        <Link href={"/achievement"}>Achievement</Link>
+                        <Link href={"/"}>Accueil</Link>
+                        <Link href={"/"}>Parcours</Link>
+                        <Link href={"/achievement"}>Expériences</Link>
                     </div>
                 </div>
             </div>

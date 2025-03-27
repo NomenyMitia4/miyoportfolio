@@ -24,7 +24,7 @@ export default function Home()
               <div className={style.btn}>
                 <button>Download CV</button>
               </div>
-              <p>Actuellement, Master 1 en Finance et Comptabilité à l'ESSCA, passionnée dans la domaine de gestion</p>
+              <p>Actuellement, Master 1 en Finance et Comptabilité à l&apos;ESSCA, passionnée dans la domaine de gestion</p>
               <p className={style.join}>Contactez moi ici</p>
               <div className={style.social_media}>
                 <SocialMedia/>

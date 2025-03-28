@@ -6,9 +6,9 @@ const SocialMedia = () => {
     return(
         <>
         <div className={style.social_media_icons}>
-            <FontAwesomeIcon icon={faFacebook} color="orange" width={30} height={30}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faLinkedin} color="orange" width={30} height={30}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faInstagram} color="orange" width={30} height={30}></FontAwesomeIcon>
+            <FontAwesomeIcon className={style.icon} icon={faFacebook} color="orange" width={30} height={30}></FontAwesomeIcon>
+            <FontAwesomeIcon className={style.icon} icon={faLinkedin} color="orange" width={30} height={30}></FontAwesomeIcon>
+            <FontAwesomeIcon className={style.icon} icon={faInstagram} color="orange" width={30} height={30}></FontAwesomeIcon>
         </div>
         </>
     )

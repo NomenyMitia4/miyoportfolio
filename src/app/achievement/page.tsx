@@ -12,7 +12,7 @@ export default function Achievement()
                 </div>
                 <div className={style.achievement}>
                     <div className={style.title}>
-                        <h1><span className={style.tiret}>- </span> Achievement <span className={style.tiret}>-</span></h1>
+                        <h1><span className={style.tiret}>- </span> EXPERIENCES <span className={style.tiret}>-</span></h1>
                     </div>
                     <div className={style.experiences}>
                         <Experience/>

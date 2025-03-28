@@ -5,10 +5,10 @@ const About = () => {
         <>
             <div className={style.about}>
                 <div className={style.caption}>
-                    <h1><span className={style.tiret}>- </span> About Me <span className={style.tiret}>-</span></h1>
+                    <h1><span className={style.tiret}>- </span> A PROPOS <span className={style.tiret}>-</span></h1>
                 </div>
                 <div className={style.about_me}>
-                    <p className={style.title}>About me</p>
+                    <p className={style.title}>Qui suis-je ?</p>
                     <div className={style.content}>
                         <p>Je m&apos;appelle RASOLONIRINA Sarobidy Ny Aina</p>
                         <p>Je m&apos;excelle dans le domaine de la gestion comptabilité et finance</p>

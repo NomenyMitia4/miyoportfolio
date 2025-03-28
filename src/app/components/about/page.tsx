@@ -10,8 +10,8 @@ const About = () => {
                 <div className={style.about_me}>
                     <p className={style.title}>About me</p>
                     <div className={style.content}>
-                        <p>Hello, my name is Sarobidy and I am an accountancy</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt, recusandae totam non nostrum earum modi odio, placeat quia eveniet rerum temporibus dolore sed optio amet. Ab laboriosam doloremque in?</p>
+                        <p>Je m'appelle RASOLONIRINA Sarobidy Ny Aina</p>
+                        <p>Je m'excelle dans le domaine de la gestion comptabilité et finance</p>
                     </div>
                 </div>
 

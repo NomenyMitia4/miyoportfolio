@@ -1,11 +1,49 @@
 .header
 {
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     color: #fff;
-    margin-top: 40px;
+    margin: 0;
+    z-index: 10;
+    padding: 10px 5px;
+    background-color: rgba(3, 13, 23, 0.416);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.bars
+{
+    display: none;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0; 
+    right: 2%;
+    z-index: 20;
+}
+
+.bars_icon
+{
+    font-size: 2em;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.mobile
+{
+    display: none;
+    z-index: 50;
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .logo
@@ -20,13 +58,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffff;
     font-weight: 900;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 .logo .text2
 {
     font-weight: 100;
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: darkgray;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
@@ -45,23 +83,43 @@
     color: #F5ECE0;
 }
 
+.mobile .hide
+{
+    display: none;
+}
+
+.mobile .show
+{
+    display: block;
+}
 
 @media screen and (max-width: 700px) {
     .header
     {
+
         flex-direction: column;
         align-items: center;
         justify-self: center;
     }
+
+    .bars
+    {
+        display: flex;
+        cursor: pointer;
+    }
+
     .logo
     {
-        font-size: 1.4em;
+        font-size: 1.1em;
         margin: 0;
     }
+
     .menu_items
     {
+        display: none;
         margin: 15px 0px 0px 0px; 
     }
+
     .items
     {   
         font-size: 1.35em;

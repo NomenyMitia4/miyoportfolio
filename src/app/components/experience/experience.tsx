@@ -36,7 +36,7 @@ const Experience = () =>{
                 </div>
                 <div className={style.content}>
                     <div className={style.title}>
-                        <p>STAFF: Madagascar MOBA Association(MMA)</p>
+                        <p>Staff: Madagascar MOBA Association (MMA)</p>
                     </div>
                     <div className={style.details}>
                         <ul>

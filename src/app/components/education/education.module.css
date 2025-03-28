@@ -1,0 +1,255 @@
+.about
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    margin: 0;
+    background: linear-gradient(rgba(136, 34, 34, 0.69), rgba(72, 36, 94, 0.679)), url("/background/bg.jpg");
+    z-index: -2;
+}
+
+.timeline
+{
+    position: relative;
+    max-width: 1200px;
+    height: max-content;
+    margin: 60px auto;
+}
+
+.timeline::after
+{
+    content: '';
+    position: absolute;
+    width: 5px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 50%;
+    background-color: #ffffffbf;
+    top: 1%;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 150px;
+}
+
+.title h2
+{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 800;
+}
+
+@keyframes moveline
+{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+.container
+{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+
+.container:nth-child(1)
+{
+    animation-delay: 0s;
+}
+
+.container:nth-child(2)
+{
+    animation-delay: 2s;
+}
+
+.container:nth-child(3)
+{
+    animation-delay: 4s;
+}
+
+@keyframes movedown {
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.textbox
+{
+    padding: 20px 30px;
+    background: #0e0536d0;
+    color: #fff;
+    position: relative;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.textbox p
+{
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    color: rgba(175, 75, 75, 0.892);
+}
+
+.textbox ul
+{
+    margin-left: 26px;
+}
+
+.textbox ul li p
+{
+    font-weight: 100;
+    color: #fff;
+}
+
+.textbox h2
+{
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ADB2D4;
+}
+
+.textbox small
+{
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    color: #ffffffa4;
+}
+
+.textbox p
+{
+    margin-top: 10px;
+    line-height: 1.8em;
+}
+
+.left_container
+{
+    left: 0;
+}
+
+.right_container
+{
+    left: 50%;
+}
+
+.container .img
+{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 25px;
+    z-index: 10;
+}
+
+.right_container .img
+{
+    left: -70px;
+}
+
+.left_container_arrow
+{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+}
+
+.right_container_arrow
+{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+}
+
+ @media screen and (max-width: 700px){
+    .timeline
+    {
+        margin: 40px auto;
+    }
+
+    .timeline::after
+    {
+        left: 31px;
+    }
+
+    .title .img
+    {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .title h2
+    {
+        font-size: 1.8em;
+    }
+
+    .container
+    {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+
+    .textbox
+    {
+        font-size: 18px;
+    }
+
+    .textbox small
+    {
+        margin-bottom: 10px;
+    }
+
+    .right_container
+    {
+        left: 0;
+    }
+
+    .left_container .img, .right_container .img
+    {
+        left: -70px;
+    }
+
+    .left_container_arrow, .right_container_arrow
+    {
+        border-right: 15px solid #fff;
+        border-left: 0;
+        left: -15px;
+    }
+ }

@@ -7,11 +7,10 @@ export default function Home()
 {
   return(
     <>
-    
-    <div className={style.home}>
       <div className={style.menu}>
-          <Menu/>
-        </div>
+        <Menu/>
+      </div>
+      <div className={style.home}>
         <div className={style.container}>
           <div className={style.hero}>
             <img src={"/image/bg_remove_miyo.png"} alt="My Avatar" />
@@ -36,7 +35,7 @@ export default function Home()
         <div className={style.about}>
           <About/>
         </div>
-    </div>
+      </div>
 
     </>
   )

@@ -3,7 +3,7 @@
 import style from "./menu.module.css"
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 const Menu = () =>{
@@ -37,11 +37,14 @@ const Menu = () =>{
             </div>
             
             <div className={`${style.mobile} ${isMenuDisplayed ? style.show : style.hide}`}>
+                <div className={style.btnClose}>
+                <FontAwesomeIcon icon={faClose} onClick={menuConfig} className={style.close_icon} width={35} height={35}/>
+                </div>
                 <div className={style.mobile_menu_items}>
                     <div className={style.mobile_items}>
-                        <Link href={"/"}>Accueil</Link>
-                        <Link href={"/"}>Parcours</Link>
-                        <Link href={"/achievement"}>Expériences</Link>
+                        <Link className={style.mobile_link} href={"/"}>Accueil</Link>
+                        <Link className={style.mobile_link} href={"/"}>Parcours</Link>
+                        <Link className={style.mobile_link} href={"/achievement"}>Expériences</Link>
                     </div>
                 </div>
             </div>

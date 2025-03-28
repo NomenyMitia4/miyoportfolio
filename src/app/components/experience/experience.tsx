@@ -32,25 +32,6 @@ const Experience = () =>{
 
             <div className={style.experience}>
                 <div className={style.date}>
-                    <p>2023 - Actuel</p>
-                </div>
-                <div className={style.content}>
-                    <div className={style.title}>
-                        <p>Staff: Madagascar MOBA Association (MMA)</p>
-                    </div>
-                    <div className={style.details}>
-                        <ul>
-                            <li><p>Participation à la création des évènements futurs</p></li>
-                        </ul>
-                    </div>
-                    <div className={style.place}>
-                        <p><span className={style.tiret}>- </span>Antananarivo</p>
-                    </div>
-                </div>
-            </div>
-
-            <div className={style.experience}>
-                <div className={style.date}>
                     <p>2022 - 2023</p>
                 </div>
                 <div className={style.content}>

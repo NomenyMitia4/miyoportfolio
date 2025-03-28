@@ -21,7 +21,7 @@ export default function Home()
             <p className={style.title}>Comptable</p>
             <div className={style.links}>
               <div className={style.btn}>
-                <button>Download CV</button>
+                <button>Mon CV</button>
               </div>
               <p>Actuellement, Master 1 en Finance et Comptabilité à l&apos;ESSCA, passionnée dans la domaine de gestion</p>
               <p className={style.join}>Contactez moi ici</p>

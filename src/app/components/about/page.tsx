@@ -10,8 +10,8 @@ const About = () => {
                 <div className={style.about_me}>
                     <p className={style.title}>About me</p>
                     <div className={style.content}>
-                        <p>Je m'appelle RASOLONIRINA Sarobidy Ny Aina</p>
-                        <p>Je m'excelle dans le domaine de la gestion comptabilité et finance</p>
+                        <p>Je m&apos;appelle RASOLONIRINA Sarobidy Ny Aina</p>
+                        <p>Je m&apos;excelle dans le domaine de la gestion comptabilité et finance</p>
                     </div>
                 </div>
 

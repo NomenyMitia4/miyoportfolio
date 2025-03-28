@@ -1,4 +1,4 @@
-import style from "./service.module.css";
+
 
 const Service = () =>{
     return(

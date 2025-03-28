@@ -1,7 +1,7 @@
 import style from "./social_media.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from "next/link";
-import { faFacebook, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 const SocialMedia = () => {
     return(
